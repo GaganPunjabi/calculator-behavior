@@ -13,7 +13,7 @@ Then I see the "subtracted number" as the result
 
 ### Scenario: Subtraction of positive and negative number
   
-  Given The calculator is ON able to enter number
+  Given Calculator is ON AND Screen is clear
   When I type in "positive number"
   And I press "minus"
   And I type in "negative number"
@@ -63,7 +63,7 @@ Then I see the "subtracted number" as the result
   Given Calculator is ON AND Screen is clear
   When I type in "maximum acceptable negative number"
   And I press "minus"
-  And I type in " postive number"
+  And I type in " positive number"
   And I press "equals"
   Then I see the result within the range
 
