@@ -1,5 +1,7 @@
 # Addition
+
 ## Scenarios
+
 ### Scenario: Addition of two positive number
   
   Given Calculator is ON AND Screen is clear
@@ -34,13 +36,13 @@
     And I press "plus"
     And I type in "positive number"
     And I press "equals"
-    
+
   Then I see the "added number" as the result
 
 ### Scenario: Invalid combination of the sum is given
-  
+
   Given Calculator is ON AND Screen is clear
-   
+
   When I type in "positive number"
     And I press "plus"
     And I press "plus"
