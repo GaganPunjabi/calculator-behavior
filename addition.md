@@ -24,7 +24,7 @@
   
   Then I see the "added number" as the result
   
-### Scenario: Addition of multiple positive numbers
+### Scenario: Addition of more than two positive numbers
   
   Given Calculator is ON AND Screen is clear
 
@@ -39,7 +39,7 @@
 
   Then I see the "added number" as the result
 
-### Scenario: Invalid combination of the sum is given
+### Scenario: Invalid combination of the sum
 
   Given Calculator is ON AND Screen is clear
 
