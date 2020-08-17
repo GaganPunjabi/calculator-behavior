@@ -91,4 +91,5 @@ Then I see the "subtracted number" as the result
   And I type in "operand two"
   And I press "minus"
   And I type in "operand one"
-  Then I see the "subtracted number" not equal to operand two minus operand one as the result
+  Then I see the "subtracted number" not equal to
+  operand two minus operand one as the result
