@@ -47,7 +47,7 @@ Then I see the "cannot divide the number by zero" as the result
   And I press "equals"
   Then I see the "positive number" as the result
 
-### Scenario: symmetricity of division
+### Scenario: Symmetric division
   
   Given Calculator is ON AND Screen is clear
   When I type in "number one"
