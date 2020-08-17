@@ -18,7 +18,7 @@ When I type in "number"
 And I press "divide"
 And I type in "zero"
 And I press "equals"
-Then I see the "cannot divide number by zero" as the result
+Then I see the "cannot divide the number by zero" as the result
 
 ### Scenario: Divide zero by any number
   
@@ -38,7 +38,7 @@ Then I see the "cannot divide number by zero" as the result
   And I press "equals"
   Then I see the "negative divided number" as the result
 
-### Scenario: Divide negative number with a negative number
+### Scenario: Divide the negative number with a negative number
 
   Given Calculator is ON AND Screen is clear
   When I type in "operand one" negative
@@ -47,7 +47,7 @@ Then I see the "cannot divide number by zero" as the result
   And I press "equals"
   Then I see the "positive number" as the result
 
-### Scenario: Symetricity of division
+### Scenario: symmetricity of division
   
   Given Calculator is ON AND Screen is clear
   When I type in "number one"
