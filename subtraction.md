@@ -61,7 +61,7 @@ Then I see the "subtracted number" as the result
 ### Scenario: Subtracting numbers where the result goes out of range
 
   Given Calculator is ON AND Screen is clear
-  When I type in "maximum acceptable negative number"
+  When I type in "largest acceptable negative number"
   And I press "minus"
   And I type in " positive number"
   And I press "equals"
